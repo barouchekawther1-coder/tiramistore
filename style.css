@@ -1,0 +1,208 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f8f4ee;
+}
+
+nav{
+    background:#5C4033; /* brun café */
+    width:80%;
+    margin:30px auto;
+    padding:15px;
+    border-radius:50px; /* forme ovale */
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+nav a{
+    color:#FFF8F0;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    padding:10px 20px;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+/* Hover */
+nav a:hover{
+    background:#D8B384; /* couleur café au lait */
+    color:#4B2E2E;
+    transform:translateY(-3px);
+}
+
+h1{
+    text-align: center;
+    color: #5C4033; /* Brun café */
+    font-size: 42px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+p{
+    text-align: center;
+    color: #301c13; /* Brun café */
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+h2{
+
+    text-align: center;
+    color: #5C4033; /* Brun café */
+    font-size: 42px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 40px auto;
+}
+
+.card{
+    width: 250px;
+    text-align: center;
+    background: #fff8f0;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card h3{
+    font-size: 16px;
+    color: #5C4033;
+    margin: 15px 0;
+}
+
+.card button{
+    background: #6F4E37;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background: #A67C52;
+}
+
+
+#feedbacks{
+    text-align: center;
+    margin: 60px auto;
+}
+
+#feedbacks label{
+    font-size: 24px;
+    color: #5C4033;
+    font-weight: bold;
+}
+
+#feedbacks textarea{
+    width: 500px;
+    height: 180px;
+    padding: 15px;
+    border: 2px solid #D8B384;
+    border-radius: 20px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+#feedbacks textarea::placeholder{
+    color: gray;
+    font-size: 16px;
+}
+
+#feedbacks textarea:focus{
+    border-color: #6F4E37;
+    box-shadow: 0 0 10px rgba(111,78,55,0.3);
+}
+#feedbacks input{
+    width: 500px;
+    height: 50px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+img{
+    width:400px;  
+    height: 350px;      
+    display:block;
+    margin:20px auto; /* Centre horizontalement */
+    border-radius:20px; /* Coins arrondis (optionnel) */
+}
+
+
+
+.order-form{
+    width:400px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.order-form label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:8px;
+    color:#5C4033;
+    font-weight:bold;
+}
+
+.order-form input{
+    width:100%;
+    padding:12px;
+    border:2px solid #D8B384;
+    border-radius:12px;
+    font-size:16px;
+    box-sizing:border-box;
+    outline:none;
+}
+
+.order-form input:focus{
+    border-color:#6F4E37;
+}
+
+.order-form button{
+    width:100%;
+    margin-top:25px;
+    padding:15px;
+    background:#6F4E37;
+    color:white;
+    border:none;
+    border-radius:30px;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.order-form button:hover{
+    background:#8B5E3C;
+}
